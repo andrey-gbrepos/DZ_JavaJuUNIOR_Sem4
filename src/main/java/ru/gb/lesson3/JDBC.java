@@ -75,6 +75,10 @@ public class JDBC {
     }
   }
 
+  // static Optional<String> selectNameById(long id) {
+  //   ...
+  // }
+
   private static List<String> selectNamesByAge(Connection connection, String age) throws SQLException {
 //    try (Statement statement = connection.createStatement()) {
 //      statement.executeQuery("select name from person where age = " + age);
